@@ -20,6 +20,6 @@ where country like ('_____');
 SONUÇ:13
 
 -- 5-city tablosundaki şehir isimlerinin kaç tanesi 'R' veya r karakteri ile biter?
-select count (city) from city
-where city like ('R%r');
-SONUÇ:1
+select count (*) from city
+where city like '%R' or city like '%r';
+SONUÇ:33
