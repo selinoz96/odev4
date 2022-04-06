@@ -21,5 +21,5 @@ SONUÇ:13
 
 -- 5-city tablosundaki şehir isimlerinin kaç tanesi 'R' veya r karakteri ile biter?
 select count (*) from city
-where city ilike '%R'
+where city ilike '%R';
 SONUÇ:33
